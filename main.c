@@ -4,6 +4,7 @@
 
 bool Canh(int a,int b){
     if (a<=0 || b<=0){
+        printf("Canh cua tam giac khong the nho hon hoac bang 0.\n");
         return false;
     }
     return  true;
